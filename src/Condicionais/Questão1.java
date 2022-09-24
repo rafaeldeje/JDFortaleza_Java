@@ -2,18 +2,20 @@ package Condicionais;
 
 import java.util.Scanner;
 
-public class Questão1 {
+public class Ex1 {
 
 	public static void main(String[] args) {
-		//1) Faça um Programa que peça dois números e imprima o maior deles.
+		/*1) Faça um Programa que peça dois números
+		 * e imprima o maior deles.
+		 */
 
-		Scanner leitor = new Scanner(System.in);
-		double n1,n2;
+		Scanner scanner = new Scanner(System.in);
+		int n1,n2;
 		
 		System.out.println("Digite aqui o seu primeiro número: ");
-		n1 = leitor.nextInt();
+		n1 = scanner.nextInt();
 		System.out.println("Digite agora o seu segundo número: ");
-		n2 = leitor.nextInt();
+		n2 = scanner.nextInt();
 		
 		if (n1>n2) {
 			System.out.println("O primeiro"+n1+"é maior");
